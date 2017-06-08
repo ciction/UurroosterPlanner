@@ -1,0 +1,1 @@
+java -server -jar optaplanner-examples.jar

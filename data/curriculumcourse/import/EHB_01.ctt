@@ -27,18 +27,18 @@ S.Weemaels_K.V.Ryckegem		S.Weemaels K.V.Ryckegem
 
 ROOMS:
 RoomID  Capacity    PCcount
-A001    70            0
-A002    70            0
-A003    70            0
-A11     20           20
-A202    20           20
-A204    20           20
-C201    30           30
+A001		70		0
+A002		70		0
+A003		70		0
+A11			20		20
+A202		20		20
+A204		20		20
+C201		30		30
 
 CURRICULA:
 CurriculumID   #Courses     AllMemberCourses(n)
-DigX3_Bizit           4		ABAP_Objects Java_EE_BIZ Networking GW_ABAP_JAVA 
-DigX3_Network         3		Java_EE_NW_WK Networking GW_ABAP_JAVA 
+DigX3_Bizit		4		ABAP_Objects Java_EE_BIZ Networking GW_ABAP_JAVA 
+DigX3_Network		3		Java_EE_NW_WK Networking GW_ABAP_JAVA 
 
 UNAVAILABILITY_COURSE:
 CourseID        Day(date)    Period
@@ -47,9 +47,9 @@ Java_EE_NW_WK	04/06/2017	1
 
 UNAVAILABILITY_CURRICULUM:
 CurriculumID        Day(date)   timeslot(optional)
-DigX3_Bizit         04/06/2017	0
-DigX3_Bizit         04/06/2017	1
-DigX3_Bizit         04/06/2017	2
+DigX3_Bizit	04/06/2017	0
+DigX3_Bizit	04/06/2017	1
+DigX3_Bizit	04/06/2017	2
 
 UNAVAILABLE_HOURS_ALL:
 Day(date)    Period
