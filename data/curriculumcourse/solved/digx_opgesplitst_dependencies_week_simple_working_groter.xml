@@ -1,0 +1,5541 @@
+<CourseSchedule id="1">
+  <id>0</id>
+  <name>EHB</name>
+  <teacherList id="2">
+    <Teacher id="3">
+      <id>7</id>
+      <code>NN</code>
+    </Teacher>
+    <Teacher id="4">
+      <id>1</id>
+      <code>J.Wante</code>
+    </Teacher>
+    <Teacher id="5">
+      <id>8</id>
+      <code>S.Weemaels_K.Bruyl_R.Dejonck</code>
+    </Teacher>
+    <Teacher id="6">
+      <id>2</id>
+      <code>R.Dejonck_K.Bruyl</code>
+    </Teacher>
+    <Teacher id="7">
+      <id>6</id>
+      <code>J.Alen</code>
+    </Teacher>
+    <Teacher id="8">
+      <id>0</id>
+      <code>G.Coulommier</code>
+    </Teacher>
+    <Teacher id="9">
+      <id>4</id>
+      <code>K.Bruylandt_J.VanDenBroek</code>
+    </Teacher>
+    <Teacher id="10">
+      <id>5</id>
+      <code>K.Vanneuville</code>
+    </Teacher>
+    <Teacher id="11">
+      <id>3</id>
+      <code>J.VanDenBroek</code>
+    </Teacher>
+  </teacherList>
+  <curriculumList id="12">
+    <Curriculum id="13">
+      <id>0</id>
+      <code>DigX3_Bizit</code>
+      <coursesInCurriculum>12</coursesInCurriculum>
+    </Curriculum>
+    <Curriculum id="14">
+      <id>1</id>
+      <code>DigX3_Network</code>
+      <coursesInCurriculum>13</coursesInCurriculum>
+    </Curriculum>
+    <Curriculum id="15">
+      <id>2</id>
+      <code>DigX3_Software</code>
+      <coursesInCurriculum>12</coursesInCurriculum>
+    </Curriculum>
+  </curriculumList>
+  <courseList id="16">
+    <Course id="17">
+      <id>0</id>
+      <urenPerDag>2</urenPerDag>
+      <code>OS_HO</code>
+      <teacher reference="8"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="18">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>54</studentSize>
+      <courseDependencies id="19"/>
+      <courseDependencyCount id="20"/>
+    </Course>
+    <Course id="21">
+      <id>1</id>
+      <urenPerDag>3</urenPerDag>
+      <code>OS_WK</code>
+      <teacher reference="8"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="22">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="23"/>
+      <courseDependencyCount id="24"/>
+    </Course>
+    <Course id="25">
+      <id>2</id>
+      <urenPerDag>4</urenPerDag>
+      <code>CPP_HO</code>
+      <teacher reference="4"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="26">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>54</studentSize>
+      <courseDependencies id="27"/>
+      <courseDependencyCount id="28"/>
+    </Course>
+    <Course id="29">
+      <id>3</id>
+      <urenPerDag>3</urenPerDag>
+      <code>CPP_WK</code>
+      <teacher reference="6"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="30">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="31"/>
+      <courseDependencyCount id="32"/>
+    </Course>
+    <Course id="33">
+      <id>4</id>
+      <urenPerDag>2</urenPerDag>
+      <code>SoftDesignFund_HO</code>
+      <teacher reference="11"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="34">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>54</studentSize>
+      <courseDependencies id="35"/>
+      <courseDependencyCount id="36"/>
+    </Course>
+    <Course id="37">
+      <id>5</id>
+      <urenPerDag>3</urenPerDag>
+      <code>SoftDesignFund_WK</code>
+      <teacher reference="9"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="38">
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>30</studentSize>
+      <courseDependencies id="39"/>
+      <courseDependencyCount id="40"/>
+    </Course>
+    <Course id="41">
+      <id>6</id>
+      <urenPerDag>2</urenPerDag>
+      <code>DatabaseFund_HO</code>
+      <teacher reference="10"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="42">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="43"/>
+      <courseDependencyCount id="44"/>
+    </Course>
+    <Course id="45">
+      <id>7</id>
+      <urenPerDag>3</urenPerDag>
+      <code>DatabaseFund_WK</code>
+      <teacher reference="10"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="46">
+        <Curriculum reference="14"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="47"/>
+      <courseDependencyCount id="48"/>
+    </Course>
+    <Course id="49">
+      <id>8</id>
+      <urenPerDag>2</urenPerDag>
+      <code>ProjMan_HO</code>
+      <teacher reference="7"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="50">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="51"/>
+      <courseDependencyCount id="52"/>
+    </Course>
+    <Course id="53">
+      <id>9</id>
+      <urenPerDag>3</urenPerDag>
+      <code>ProjMan_WK</code>
+      <teacher reference="7"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="54">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="55"/>
+      <courseDependencyCount id="56"/>
+    </Course>
+    <Course id="57">
+      <id>10</id>
+      <urenPerDag>2</urenPerDag>
+      <code>Engels_HO</code>
+      <teacher reference="3"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="58">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>12</studentSize>
+      <courseDependencies id="59"/>
+      <courseDependencyCount id="60"/>
+    </Course>
+    <Course id="61">
+      <id>11</id>
+      <urenPerDag>3</urenPerDag>
+      <code>Engels_WK</code>
+      <teacher reference="3"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Werkcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="62">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>12</studentSize>
+      <courseDependencies id="63"/>
+      <courseDependencyCount id="64"/>
+    </Course>
+    <Course id="65">
+      <id>12</id>
+      <urenPerDag>3</urenPerDag>
+      <code>SoftProj_PR</code>
+      <teacher reference="5"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>false</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="66">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+        <Curriculum reference="15"/>
+      </curriculumList>
+      <studentSize>54</studentSize>
+      <courseDependencies id="67"/>
+      <courseDependencyCount id="68"/>
+    </Course>
+    <Course id="69">
+      <id>13</id>
+      <urenPerDag>3</urenPerDag>
+      <code>WebProj_PR</code>
+      <teacher reference="10"/>
+      <lectureSize>12</lectureSize>
+      <courseType>Hoorcollege</courseType>
+      <LectureTime>0</LectureTime>
+      <minWorkingDaySize>3</minWorkingDaySize>
+      <maxWorkingDaySize>2147483647</maxWorkingDaySize>
+      <isPCNeeded>true</isPCNeeded>
+      <firstPossibleDayIndex>-1</firstPossibleDayIndex>
+      <lastPossibleDayIndex>2147483647</lastPossibleDayIndex>
+      <curriculumList id="70">
+        <Curriculum reference="13"/>
+        <Curriculum reference="14"/>
+      </curriculumList>
+      <studentSize>25</studentSize>
+      <courseDependencies id="71"/>
+      <courseDependencyCount id="72"/>
+    </Course>
+  </courseList>
+  <courseDependencyList id="73"/>
+  <teacherGroups id="74">
+    <TeacherGroup id="75">
+      <id>0</id>
+      <groupedTeachers>R.Dejonck_K.Bruyl</groupedTeachers>
+      <individualTeacher>K.Bruylandt_J.VanDenBroek</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="76">
+      <id>1</id>
+      <groupedTeachers>K.Bruylandt_J.VanDenBroek</groupedTeachers>
+      <individualTeacher>S.Weemaels_K.Bruyl_R.Dejonck</individualTeacher>
+    </TeacherGroup>
+    <TeacherGroup id="77">
+      <id>2</id>
+      <groupedTeachers>R.Dejonck_K.Bruyl</groupedTeachers>
+      <individualTeacher>S.Weemaels_K.Bruyl_R.Dejonck</individualTeacher>
+    </TeacherGroup>
+  </teacherGroups>
+  <dayList id="78">
+    <Day id="79">
+      <id>0</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>0</dayIndex>
+      <date id="80">2017-02-13 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>13/02/2017</dateString>
+      <periodList id="81">
+        <Period id="82">
+          <id>0</id>
+          <day reference="79"/>
+          <timeslot id="83">
+            <id>0</id>
+            <timeslotIndex>0</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="84">
+          <id>1</id>
+          <day reference="79"/>
+          <timeslot id="85">
+            <id>1</id>
+            <timeslotIndex>1</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="86">
+          <id>2</id>
+          <day reference="79"/>
+          <timeslot id="87">
+            <id>2</id>
+            <timeslotIndex>2</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="88">
+          <id>3</id>
+          <day reference="79"/>
+          <timeslot id="89">
+            <id>3</id>
+            <timeslotIndex>3</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="90">
+          <id>4</id>
+          <day reference="79"/>
+          <timeslot id="91">
+            <id>4</id>
+            <timeslotIndex>4</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="92">
+          <id>5</id>
+          <day reference="79"/>
+          <timeslot id="93">
+            <id>5</id>
+            <timeslotIndex>5</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="94">
+          <id>6</id>
+          <day reference="79"/>
+          <timeslot id="95">
+            <id>6</id>
+            <timeslotIndex>6</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="96">
+          <id>7</id>
+          <day reference="79"/>
+          <timeslot id="97">
+            <id>7</id>
+            <timeslotIndex>7</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="98">
+          <id>8</id>
+          <day reference="79"/>
+          <timeslot id="99">
+            <id>8</id>
+            <timeslotIndex>8</timeslotIndex>
+          </timeslot>
+        </Period>
+        <Period id="100">
+          <id>9</id>
+          <day reference="79"/>
+          <timeslot id="101">
+            <id>9</id>
+            <timeslotIndex>9</timeslotIndex>
+          </timeslot>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="102">
+      <id>1</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>1</dayIndex>
+      <date id="103">2017-02-14 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>14/02/2017</dateString>
+      <periodList id="104">
+        <Period id="105">
+          <id>10</id>
+          <day reference="102"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="106">
+          <id>11</id>
+          <day reference="102"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="107">
+          <id>12</id>
+          <day reference="102"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="108">
+          <id>13</id>
+          <day reference="102"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="109">
+          <id>14</id>
+          <day reference="102"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="110">
+          <id>15</id>
+          <day reference="102"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="111">
+          <id>16</id>
+          <day reference="102"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="112">
+          <id>17</id>
+          <day reference="102"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="113">
+          <id>18</id>
+          <day reference="102"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="114">
+          <id>19</id>
+          <day reference="102"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="115">
+      <id>2</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>2</dayIndex>
+      <date id="116">2017-02-15 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>15/02/2017</dateString>
+      <periodList id="117">
+        <Period id="118">
+          <id>20</id>
+          <day reference="115"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="119">
+          <id>21</id>
+          <day reference="115"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="120">
+          <id>22</id>
+          <day reference="115"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="121">
+          <id>23</id>
+          <day reference="115"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="122">
+          <id>24</id>
+          <day reference="115"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="123">
+          <id>25</id>
+          <day reference="115"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="124">
+          <id>26</id>
+          <day reference="115"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="125">
+          <id>27</id>
+          <day reference="115"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="126">
+          <id>28</id>
+          <day reference="115"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="127">
+          <id>29</id>
+          <day reference="115"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="128">
+      <id>3</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>3</dayIndex>
+      <date id="129">2017-02-16 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>16/02/2017</dateString>
+      <periodList id="130">
+        <Period id="131">
+          <id>30</id>
+          <day reference="128"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="132">
+          <id>31</id>
+          <day reference="128"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="133">
+          <id>32</id>
+          <day reference="128"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="134">
+          <id>33</id>
+          <day reference="128"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="135">
+          <id>34</id>
+          <day reference="128"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="136">
+          <id>35</id>
+          <day reference="128"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="137">
+          <id>36</id>
+          <day reference="128"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="138">
+          <id>37</id>
+          <day reference="128"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="139">
+          <id>38</id>
+          <day reference="128"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="140">
+          <id>39</id>
+          <day reference="128"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="141">
+      <id>4</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>4</dayIndex>
+      <date id="142">2017-02-17 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>17/02/2017</dateString>
+      <periodList id="143">
+        <Period id="144">
+          <id>40</id>
+          <day reference="141"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="145">
+          <id>41</id>
+          <day reference="141"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="146">
+          <id>42</id>
+          <day reference="141"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="147">
+          <id>43</id>
+          <day reference="141"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="148">
+          <id>44</id>
+          <day reference="141"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="149">
+          <id>45</id>
+          <day reference="141"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="150">
+          <id>46</id>
+          <day reference="141"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="151">
+          <id>47</id>
+          <day reference="141"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="152">
+          <id>48</id>
+          <day reference="141"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="153">
+          <id>49</id>
+          <day reference="141"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="154">
+      <id>5</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>5</dayIndex>
+      <date id="155">2017-02-18 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>18/02/2017</dateString>
+      <periodList id="156">
+        <Period id="157">
+          <id>50</id>
+          <day reference="154"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="158">
+          <id>51</id>
+          <day reference="154"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="159">
+          <id>52</id>
+          <day reference="154"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="160">
+          <id>53</id>
+          <day reference="154"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="161">
+          <id>54</id>
+          <day reference="154"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="162">
+          <id>55</id>
+          <day reference="154"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="163">
+          <id>56</id>
+          <day reference="154"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="164">
+          <id>57</id>
+          <day reference="154"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="165">
+          <id>58</id>
+          <day reference="154"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="166">
+          <id>59</id>
+          <day reference="154"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="167">
+      <id>6</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>6</dayIndex>
+      <date id="168">2017-02-19 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>19/02/2017</dateString>
+      <periodList id="169">
+        <Period id="170">
+          <id>60</id>
+          <day reference="167"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="171">
+          <id>61</id>
+          <day reference="167"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="172">
+          <id>62</id>
+          <day reference="167"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="173">
+          <id>63</id>
+          <day reference="167"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="174">
+          <id>64</id>
+          <day reference="167"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="175">
+          <id>65</id>
+          <day reference="167"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="176">
+          <id>66</id>
+          <day reference="167"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="177">
+          <id>67</id>
+          <day reference="167"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="178">
+          <id>68</id>
+          <day reference="167"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="179">
+          <id>69</id>
+          <day reference="167"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="180">
+      <id>7</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>7</dayIndex>
+      <date id="181">2017-02-20 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>20/02/2017</dateString>
+      <periodList id="182">
+        <Period id="183">
+          <id>70</id>
+          <day reference="180"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="184">
+          <id>71</id>
+          <day reference="180"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="185">
+          <id>72</id>
+          <day reference="180"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="186">
+          <id>73</id>
+          <day reference="180"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="187">
+          <id>74</id>
+          <day reference="180"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="188">
+          <id>75</id>
+          <day reference="180"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="189">
+          <id>76</id>
+          <day reference="180"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="190">
+          <id>77</id>
+          <day reference="180"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="191">
+          <id>78</id>
+          <day reference="180"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="192">
+          <id>79</id>
+          <day reference="180"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="193">
+      <id>8</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>8</dayIndex>
+      <date id="194">2017-02-21 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>21/02/2017</dateString>
+      <periodList id="195">
+        <Period id="196">
+          <id>80</id>
+          <day reference="193"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="197">
+          <id>81</id>
+          <day reference="193"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="198">
+          <id>82</id>
+          <day reference="193"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="199">
+          <id>83</id>
+          <day reference="193"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="200">
+          <id>84</id>
+          <day reference="193"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="201">
+          <id>85</id>
+          <day reference="193"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="202">
+          <id>86</id>
+          <day reference="193"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="203">
+          <id>87</id>
+          <day reference="193"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="204">
+          <id>88</id>
+          <day reference="193"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="205">
+          <id>89</id>
+          <day reference="193"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="206">
+      <id>9</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>9</dayIndex>
+      <date id="207">2017-02-22 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>22/02/2017</dateString>
+      <periodList id="208">
+        <Period id="209">
+          <id>90</id>
+          <day reference="206"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="210">
+          <id>91</id>
+          <day reference="206"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="211">
+          <id>92</id>
+          <day reference="206"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="212">
+          <id>93</id>
+          <day reference="206"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="213">
+          <id>94</id>
+          <day reference="206"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="214">
+          <id>95</id>
+          <day reference="206"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="215">
+          <id>96</id>
+          <day reference="206"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="216">
+          <id>97</id>
+          <day reference="206"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="217">
+          <id>98</id>
+          <day reference="206"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="218">
+          <id>99</id>
+          <day reference="206"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="219">
+      <id>10</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>10</dayIndex>
+      <date id="220">2017-02-23 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>23/02/2017</dateString>
+      <periodList id="221">
+        <Period id="222">
+          <id>100</id>
+          <day reference="219"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="223">
+          <id>101</id>
+          <day reference="219"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="224">
+          <id>102</id>
+          <day reference="219"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="225">
+          <id>103</id>
+          <day reference="219"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="226">
+          <id>104</id>
+          <day reference="219"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="227">
+          <id>105</id>
+          <day reference="219"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="228">
+          <id>106</id>
+          <day reference="219"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="229">
+          <id>107</id>
+          <day reference="219"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="230">
+          <id>108</id>
+          <day reference="219"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="231">
+          <id>109</id>
+          <day reference="219"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="232">
+      <id>11</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>11</dayIndex>
+      <date id="233">2017-02-24 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>24/02/2017</dateString>
+      <periodList id="234">
+        <Period id="235">
+          <id>110</id>
+          <day reference="232"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="236">
+          <id>111</id>
+          <day reference="232"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="237">
+          <id>112</id>
+          <day reference="232"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="238">
+          <id>113</id>
+          <day reference="232"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="239">
+          <id>114</id>
+          <day reference="232"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="240">
+          <id>115</id>
+          <day reference="232"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="241">
+          <id>116</id>
+          <day reference="232"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="242">
+          <id>117</id>
+          <day reference="232"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="243">
+          <id>118</id>
+          <day reference="232"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="244">
+          <id>119</id>
+          <day reference="232"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="245">
+      <id>12</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>12</dayIndex>
+      <date id="246">2017-02-25 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>25/02/2017</dateString>
+      <periodList id="247">
+        <Period id="248">
+          <id>120</id>
+          <day reference="245"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="249">
+          <id>121</id>
+          <day reference="245"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="250">
+          <id>122</id>
+          <day reference="245"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="251">
+          <id>123</id>
+          <day reference="245"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="252">
+          <id>124</id>
+          <day reference="245"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="253">
+          <id>125</id>
+          <day reference="245"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="254">
+          <id>126</id>
+          <day reference="245"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="255">
+          <id>127</id>
+          <day reference="245"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="256">
+          <id>128</id>
+          <day reference="245"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="257">
+          <id>129</id>
+          <day reference="245"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="258">
+      <id>13</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>13</dayIndex>
+      <date id="259">2017-02-26 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>26/02/2017</dateString>
+      <periodList id="260">
+        <Period id="261">
+          <id>130</id>
+          <day reference="258"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="262">
+          <id>131</id>
+          <day reference="258"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="263">
+          <id>132</id>
+          <day reference="258"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="264">
+          <id>133</id>
+          <day reference="258"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="265">
+          <id>134</id>
+          <day reference="258"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="266">
+          <id>135</id>
+          <day reference="258"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="267">
+          <id>136</id>
+          <day reference="258"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="268">
+          <id>137</id>
+          <day reference="258"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="269">
+          <id>138</id>
+          <day reference="258"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="270">
+          <id>139</id>
+          <day reference="258"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="271">
+      <id>14</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>14</dayIndex>
+      <date id="272">2017-02-27 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>27/02/2017</dateString>
+      <periodList id="273">
+        <Period id="274">
+          <id>140</id>
+          <day reference="271"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="275">
+          <id>141</id>
+          <day reference="271"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="276">
+          <id>142</id>
+          <day reference="271"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="277">
+          <id>143</id>
+          <day reference="271"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="278">
+          <id>144</id>
+          <day reference="271"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="279">
+          <id>145</id>
+          <day reference="271"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="280">
+          <id>146</id>
+          <day reference="271"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="281">
+          <id>147</id>
+          <day reference="271"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="282">
+          <id>148</id>
+          <day reference="271"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="283">
+          <id>149</id>
+          <day reference="271"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="284">
+      <id>15</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>15</dayIndex>
+      <date id="285">2017-02-28 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>28/02/2017</dateString>
+      <periodList id="286">
+        <Period id="287">
+          <id>150</id>
+          <day reference="284"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="288">
+          <id>151</id>
+          <day reference="284"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="289">
+          <id>152</id>
+          <day reference="284"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="290">
+          <id>153</id>
+          <day reference="284"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="291">
+          <id>154</id>
+          <day reference="284"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="292">
+          <id>155</id>
+          <day reference="284"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="293">
+          <id>156</id>
+          <day reference="284"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="294">
+          <id>157</id>
+          <day reference="284"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="295">
+          <id>158</id>
+          <day reference="284"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="296">
+          <id>159</id>
+          <day reference="284"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="297">
+      <id>16</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>16</dayIndex>
+      <date id="298">2017-03-01 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>01/03/2017</dateString>
+      <periodList id="299">
+        <Period id="300">
+          <id>160</id>
+          <day reference="297"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="301">
+          <id>161</id>
+          <day reference="297"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="302">
+          <id>162</id>
+          <day reference="297"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="303">
+          <id>163</id>
+          <day reference="297"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="304">
+          <id>164</id>
+          <day reference="297"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="305">
+          <id>165</id>
+          <day reference="297"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="306">
+          <id>166</id>
+          <day reference="297"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="307">
+          <id>167</id>
+          <day reference="297"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="308">
+          <id>168</id>
+          <day reference="297"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="309">
+          <id>169</id>
+          <day reference="297"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="310">
+      <id>17</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>17</dayIndex>
+      <date id="311">2017-03-02 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>02/03/2017</dateString>
+      <periodList id="312">
+        <Period id="313">
+          <id>170</id>
+          <day reference="310"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="314">
+          <id>171</id>
+          <day reference="310"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="315">
+          <id>172</id>
+          <day reference="310"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="316">
+          <id>173</id>
+          <day reference="310"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="317">
+          <id>174</id>
+          <day reference="310"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="318">
+          <id>175</id>
+          <day reference="310"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="319">
+          <id>176</id>
+          <day reference="310"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="320">
+          <id>177</id>
+          <day reference="310"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="321">
+          <id>178</id>
+          <day reference="310"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="322">
+          <id>179</id>
+          <day reference="310"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="323">
+      <id>18</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>18</dayIndex>
+      <date id="324">2017-03-03 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>03/03/2017</dateString>
+      <periodList id="325">
+        <Period id="326">
+          <id>180</id>
+          <day reference="323"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="327">
+          <id>181</id>
+          <day reference="323"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="328">
+          <id>182</id>
+          <day reference="323"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="329">
+          <id>183</id>
+          <day reference="323"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="330">
+          <id>184</id>
+          <day reference="323"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="331">
+          <id>185</id>
+          <day reference="323"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="332">
+          <id>186</id>
+          <day reference="323"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="333">
+          <id>187</id>
+          <day reference="323"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="334">
+          <id>188</id>
+          <day reference="323"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="335">
+          <id>189</id>
+          <day reference="323"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="336">
+      <id>19</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>19</dayIndex>
+      <date id="337">2017-03-04 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>04/03/2017</dateString>
+      <periodList id="338">
+        <Period id="339">
+          <id>190</id>
+          <day reference="336"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="340">
+          <id>191</id>
+          <day reference="336"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="341">
+          <id>192</id>
+          <day reference="336"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="342">
+          <id>193</id>
+          <day reference="336"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="343">
+          <id>194</id>
+          <day reference="336"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="344">
+          <id>195</id>
+          <day reference="336"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="345">
+          <id>196</id>
+          <day reference="336"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="346">
+          <id>197</id>
+          <day reference="336"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="347">
+          <id>198</id>
+          <day reference="336"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="348">
+          <id>199</id>
+          <day reference="336"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="349">
+      <id>20</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>20</dayIndex>
+      <date id="350">2017-03-05 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>05/03/2017</dateString>
+      <periodList id="351">
+        <Period id="352">
+          <id>200</id>
+          <day reference="349"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="353">
+          <id>201</id>
+          <day reference="349"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="354">
+          <id>202</id>
+          <day reference="349"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="355">
+          <id>203</id>
+          <day reference="349"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="356">
+          <id>204</id>
+          <day reference="349"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="357">
+          <id>205</id>
+          <day reference="349"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="358">
+          <id>206</id>
+          <day reference="349"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="359">
+          <id>207</id>
+          <day reference="349"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="360">
+          <id>208</id>
+          <day reference="349"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="361">
+          <id>209</id>
+          <day reference="349"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="362">
+      <id>21</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>21</dayIndex>
+      <date id="363">2017-03-06 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>06/03/2017</dateString>
+      <periodList id="364">
+        <Period id="365">
+          <id>210</id>
+          <day reference="362"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="366">
+          <id>211</id>
+          <day reference="362"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="367">
+          <id>212</id>
+          <day reference="362"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="368">
+          <id>213</id>
+          <day reference="362"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="369">
+          <id>214</id>
+          <day reference="362"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="370">
+          <id>215</id>
+          <day reference="362"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="371">
+          <id>216</id>
+          <day reference="362"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="372">
+          <id>217</id>
+          <day reference="362"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="373">
+          <id>218</id>
+          <day reference="362"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="374">
+          <id>219</id>
+          <day reference="362"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="375">
+      <id>22</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>22</dayIndex>
+      <date id="376">2017-03-07 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>07/03/2017</dateString>
+      <periodList id="377">
+        <Period id="378">
+          <id>220</id>
+          <day reference="375"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="379">
+          <id>221</id>
+          <day reference="375"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="380">
+          <id>222</id>
+          <day reference="375"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="381">
+          <id>223</id>
+          <day reference="375"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="382">
+          <id>224</id>
+          <day reference="375"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="383">
+          <id>225</id>
+          <day reference="375"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="384">
+          <id>226</id>
+          <day reference="375"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="385">
+          <id>227</id>
+          <day reference="375"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="386">
+          <id>228</id>
+          <day reference="375"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="387">
+          <id>229</id>
+          <day reference="375"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="388">
+      <id>23</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>23</dayIndex>
+      <date id="389">2017-03-08 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>08/03/2017</dateString>
+      <periodList id="390">
+        <Period id="391">
+          <id>230</id>
+          <day reference="388"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="392">
+          <id>231</id>
+          <day reference="388"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="393">
+          <id>232</id>
+          <day reference="388"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="394">
+          <id>233</id>
+          <day reference="388"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="395">
+          <id>234</id>
+          <day reference="388"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="396">
+          <id>235</id>
+          <day reference="388"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="397">
+          <id>236</id>
+          <day reference="388"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="398">
+          <id>237</id>
+          <day reference="388"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="399">
+          <id>238</id>
+          <day reference="388"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="400">
+          <id>239</id>
+          <day reference="388"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="401">
+      <id>24</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>24</dayIndex>
+      <date id="402">2017-03-09 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>09/03/2017</dateString>
+      <periodList id="403">
+        <Period id="404">
+          <id>240</id>
+          <day reference="401"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="405">
+          <id>241</id>
+          <day reference="401"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="406">
+          <id>242</id>
+          <day reference="401"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="407">
+          <id>243</id>
+          <day reference="401"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="408">
+          <id>244</id>
+          <day reference="401"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="409">
+          <id>245</id>
+          <day reference="401"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="410">
+          <id>246</id>
+          <day reference="401"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="411">
+          <id>247</id>
+          <day reference="401"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="412">
+          <id>248</id>
+          <day reference="401"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="413">
+          <id>249</id>
+          <day reference="401"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="414">
+      <id>25</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>25</dayIndex>
+      <date id="415">2017-03-10 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>10/03/2017</dateString>
+      <periodList id="416">
+        <Period id="417">
+          <id>250</id>
+          <day reference="414"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="418">
+          <id>251</id>
+          <day reference="414"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="419">
+          <id>252</id>
+          <day reference="414"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="420">
+          <id>253</id>
+          <day reference="414"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="421">
+          <id>254</id>
+          <day reference="414"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="422">
+          <id>255</id>
+          <day reference="414"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="423">
+          <id>256</id>
+          <day reference="414"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="424">
+          <id>257</id>
+          <day reference="414"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="425">
+          <id>258</id>
+          <day reference="414"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="426">
+          <id>259</id>
+          <day reference="414"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="427">
+      <id>26</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>26</dayIndex>
+      <date id="428">2017-03-11 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>11/03/2017</dateString>
+      <periodList id="429">
+        <Period id="430">
+          <id>260</id>
+          <day reference="427"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="431">
+          <id>261</id>
+          <day reference="427"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="432">
+          <id>262</id>
+          <day reference="427"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="433">
+          <id>263</id>
+          <day reference="427"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="434">
+          <id>264</id>
+          <day reference="427"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="435">
+          <id>265</id>
+          <day reference="427"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="436">
+          <id>266</id>
+          <day reference="427"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="437">
+          <id>267</id>
+          <day reference="427"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="438">
+          <id>268</id>
+          <day reference="427"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="439">
+          <id>269</id>
+          <day reference="427"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="440">
+      <id>27</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>27</dayIndex>
+      <date id="441">2017-03-12 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>12/03/2017</dateString>
+      <periodList id="442">
+        <Period id="443">
+          <id>270</id>
+          <day reference="440"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="444">
+          <id>271</id>
+          <day reference="440"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="445">
+          <id>272</id>
+          <day reference="440"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="446">
+          <id>273</id>
+          <day reference="440"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="447">
+          <id>274</id>
+          <day reference="440"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="448">
+          <id>275</id>
+          <day reference="440"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="449">
+          <id>276</id>
+          <day reference="440"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="450">
+          <id>277</id>
+          <day reference="440"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="451">
+          <id>278</id>
+          <day reference="440"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="452">
+          <id>279</id>
+          <day reference="440"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="453">
+      <id>28</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>28</dayIndex>
+      <date id="454">2017-03-13 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>13/03/2017</dateString>
+      <periodList id="455">
+        <Period id="456">
+          <id>280</id>
+          <day reference="453"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="457">
+          <id>281</id>
+          <day reference="453"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="458">
+          <id>282</id>
+          <day reference="453"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="459">
+          <id>283</id>
+          <day reference="453"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="460">
+          <id>284</id>
+          <day reference="453"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="461">
+          <id>285</id>
+          <day reference="453"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="462">
+          <id>286</id>
+          <day reference="453"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="463">
+          <id>287</id>
+          <day reference="453"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="464">
+          <id>288</id>
+          <day reference="453"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="465">
+          <id>289</id>
+          <day reference="453"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="466">
+      <id>29</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>29</dayIndex>
+      <date id="467">2017-03-14 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>14/03/2017</dateString>
+      <periodList id="468">
+        <Period id="469">
+          <id>290</id>
+          <day reference="466"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="470">
+          <id>291</id>
+          <day reference="466"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="471">
+          <id>292</id>
+          <day reference="466"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="472">
+          <id>293</id>
+          <day reference="466"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="473">
+          <id>294</id>
+          <day reference="466"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="474">
+          <id>295</id>
+          <day reference="466"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="475">
+          <id>296</id>
+          <day reference="466"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="476">
+          <id>297</id>
+          <day reference="466"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="477">
+          <id>298</id>
+          <day reference="466"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="478">
+          <id>299</id>
+          <day reference="466"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="479">
+      <id>30</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>30</dayIndex>
+      <date id="480">2017-03-15 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>15/03/2017</dateString>
+      <periodList id="481">
+        <Period id="482">
+          <id>300</id>
+          <day reference="479"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="483">
+          <id>301</id>
+          <day reference="479"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="484">
+          <id>302</id>
+          <day reference="479"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="485">
+          <id>303</id>
+          <day reference="479"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="486">
+          <id>304</id>
+          <day reference="479"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="487">
+          <id>305</id>
+          <day reference="479"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="488">
+          <id>306</id>
+          <day reference="479"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="489">
+          <id>307</id>
+          <day reference="479"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="490">
+          <id>308</id>
+          <day reference="479"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="491">
+          <id>309</id>
+          <day reference="479"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="492">
+      <id>31</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>31</dayIndex>
+      <date id="493">2017-03-16 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>16/03/2017</dateString>
+      <periodList id="494">
+        <Period id="495">
+          <id>310</id>
+          <day reference="492"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="496">
+          <id>311</id>
+          <day reference="492"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="497">
+          <id>312</id>
+          <day reference="492"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="498">
+          <id>313</id>
+          <day reference="492"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="499">
+          <id>314</id>
+          <day reference="492"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="500">
+          <id>315</id>
+          <day reference="492"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="501">
+          <id>316</id>
+          <day reference="492"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="502">
+          <id>317</id>
+          <day reference="492"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="503">
+          <id>318</id>
+          <day reference="492"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="504">
+          <id>319</id>
+          <day reference="492"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="505">
+      <id>32</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>32</dayIndex>
+      <date id="506">2017-03-17 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>17/03/2017</dateString>
+      <periodList id="507">
+        <Period id="508">
+          <id>320</id>
+          <day reference="505"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="509">
+          <id>321</id>
+          <day reference="505"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="510">
+          <id>322</id>
+          <day reference="505"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="511">
+          <id>323</id>
+          <day reference="505"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="512">
+          <id>324</id>
+          <day reference="505"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="513">
+          <id>325</id>
+          <day reference="505"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="514">
+          <id>326</id>
+          <day reference="505"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="515">
+          <id>327</id>
+          <day reference="505"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="516">
+          <id>328</id>
+          <day reference="505"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="517">
+          <id>329</id>
+          <day reference="505"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="518">
+      <id>33</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>33</dayIndex>
+      <date id="519">2017-03-18 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>18/03/2017</dateString>
+      <periodList id="520">
+        <Period id="521">
+          <id>330</id>
+          <day reference="518"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="522">
+          <id>331</id>
+          <day reference="518"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="523">
+          <id>332</id>
+          <day reference="518"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="524">
+          <id>333</id>
+          <day reference="518"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="525">
+          <id>334</id>
+          <day reference="518"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="526">
+          <id>335</id>
+          <day reference="518"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="527">
+          <id>336</id>
+          <day reference="518"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="528">
+          <id>337</id>
+          <day reference="518"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="529">
+          <id>338</id>
+          <day reference="518"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="530">
+          <id>339</id>
+          <day reference="518"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="531">
+      <id>34</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>34</dayIndex>
+      <date id="532">2017-03-19 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>19/03/2017</dateString>
+      <periodList id="533">
+        <Period id="534">
+          <id>340</id>
+          <day reference="531"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="535">
+          <id>341</id>
+          <day reference="531"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="536">
+          <id>342</id>
+          <day reference="531"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="537">
+          <id>343</id>
+          <day reference="531"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="538">
+          <id>344</id>
+          <day reference="531"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="539">
+          <id>345</id>
+          <day reference="531"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="540">
+          <id>346</id>
+          <day reference="531"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="541">
+          <id>347</id>
+          <day reference="531"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="542">
+          <id>348</id>
+          <day reference="531"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="543">
+          <id>349</id>
+          <day reference="531"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="544">
+      <id>35</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>35</dayIndex>
+      <date id="545">2017-03-20 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>20/03/2017</dateString>
+      <periodList id="546">
+        <Period id="547">
+          <id>350</id>
+          <day reference="544"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="548">
+          <id>351</id>
+          <day reference="544"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="549">
+          <id>352</id>
+          <day reference="544"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="550">
+          <id>353</id>
+          <day reference="544"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="551">
+          <id>354</id>
+          <day reference="544"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="552">
+          <id>355</id>
+          <day reference="544"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="553">
+          <id>356</id>
+          <day reference="544"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="554">
+          <id>357</id>
+          <day reference="544"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="555">
+          <id>358</id>
+          <day reference="544"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="556">
+          <id>359</id>
+          <day reference="544"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="557">
+      <id>36</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>36</dayIndex>
+      <date id="558">2017-03-21 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>21/03/2017</dateString>
+      <periodList id="559">
+        <Period id="560">
+          <id>360</id>
+          <day reference="557"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="561">
+          <id>361</id>
+          <day reference="557"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="562">
+          <id>362</id>
+          <day reference="557"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="563">
+          <id>363</id>
+          <day reference="557"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="564">
+          <id>364</id>
+          <day reference="557"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="565">
+          <id>365</id>
+          <day reference="557"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="566">
+          <id>366</id>
+          <day reference="557"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="567">
+          <id>367</id>
+          <day reference="557"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="568">
+          <id>368</id>
+          <day reference="557"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="569">
+          <id>369</id>
+          <day reference="557"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="570">
+      <id>37</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>37</dayIndex>
+      <date id="571">2017-03-22 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>22/03/2017</dateString>
+      <periodList id="572">
+        <Period id="573">
+          <id>370</id>
+          <day reference="570"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="574">
+          <id>371</id>
+          <day reference="570"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="575">
+          <id>372</id>
+          <day reference="570"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="576">
+          <id>373</id>
+          <day reference="570"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="577">
+          <id>374</id>
+          <day reference="570"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="578">
+          <id>375</id>
+          <day reference="570"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="579">
+          <id>376</id>
+          <day reference="570"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="580">
+          <id>377</id>
+          <day reference="570"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="581">
+          <id>378</id>
+          <day reference="570"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="582">
+          <id>379</id>
+          <day reference="570"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="583">
+      <id>38</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>38</dayIndex>
+      <date id="584">2017-03-23 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>23/03/2017</dateString>
+      <periodList id="585">
+        <Period id="586">
+          <id>380</id>
+          <day reference="583"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="587">
+          <id>381</id>
+          <day reference="583"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="588">
+          <id>382</id>
+          <day reference="583"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="589">
+          <id>383</id>
+          <day reference="583"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="590">
+          <id>384</id>
+          <day reference="583"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="591">
+          <id>385</id>
+          <day reference="583"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="592">
+          <id>386</id>
+          <day reference="583"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="593">
+          <id>387</id>
+          <day reference="583"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="594">
+          <id>388</id>
+          <day reference="583"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="595">
+          <id>389</id>
+          <day reference="583"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="596">
+      <id>39</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>39</dayIndex>
+      <date id="597">2017-03-24 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>24/03/2017</dateString>
+      <periodList id="598">
+        <Period id="599">
+          <id>390</id>
+          <day reference="596"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="600">
+          <id>391</id>
+          <day reference="596"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="601">
+          <id>392</id>
+          <day reference="596"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="602">
+          <id>393</id>
+          <day reference="596"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="603">
+          <id>394</id>
+          <day reference="596"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="604">
+          <id>395</id>
+          <day reference="596"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="605">
+          <id>396</id>
+          <day reference="596"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="606">
+          <id>397</id>
+          <day reference="596"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="607">
+          <id>398</id>
+          <day reference="596"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="608">
+          <id>399</id>
+          <day reference="596"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="609">
+      <id>40</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>40</dayIndex>
+      <date id="610">2017-03-25 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>25/03/2017</dateString>
+      <periodList id="611">
+        <Period id="612">
+          <id>400</id>
+          <day reference="609"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="613">
+          <id>401</id>
+          <day reference="609"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="614">
+          <id>402</id>
+          <day reference="609"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="615">
+          <id>403</id>
+          <day reference="609"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="616">
+          <id>404</id>
+          <day reference="609"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="617">
+          <id>405</id>
+          <day reference="609"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="618">
+          <id>406</id>
+          <day reference="609"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="619">
+          <id>407</id>
+          <day reference="609"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="620">
+          <id>408</id>
+          <day reference="609"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="621">
+          <id>409</id>
+          <day reference="609"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="622">
+      <id>41</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>41</dayIndex>
+      <date id="623">2017-03-26 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>26/03/2017</dateString>
+      <periodList id="624">
+        <Period id="625">
+          <id>410</id>
+          <day reference="622"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="626">
+          <id>411</id>
+          <day reference="622"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="627">
+          <id>412</id>
+          <day reference="622"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="628">
+          <id>413</id>
+          <day reference="622"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="629">
+          <id>414</id>
+          <day reference="622"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="630">
+          <id>415</id>
+          <day reference="622"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="631">
+          <id>416</id>
+          <day reference="622"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="632">
+          <id>417</id>
+          <day reference="622"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="633">
+          <id>418</id>
+          <day reference="622"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="634">
+          <id>419</id>
+          <day reference="622"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="635">
+      <id>42</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>42</dayIndex>
+      <date id="636">2017-03-27 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>27/03/2017</dateString>
+      <periodList id="637">
+        <Period id="638">
+          <id>420</id>
+          <day reference="635"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="639">
+          <id>421</id>
+          <day reference="635"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="640">
+          <id>422</id>
+          <day reference="635"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="641">
+          <id>423</id>
+          <day reference="635"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="642">
+          <id>424</id>
+          <day reference="635"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="643">
+          <id>425</id>
+          <day reference="635"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="644">
+          <id>426</id>
+          <day reference="635"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="645">
+          <id>427</id>
+          <day reference="635"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="646">
+          <id>428</id>
+          <day reference="635"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="647">
+          <id>429</id>
+          <day reference="635"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="648">
+      <id>43</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>43</dayIndex>
+      <date id="649">2017-03-28 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>28/03/2017</dateString>
+      <periodList id="650">
+        <Period id="651">
+          <id>430</id>
+          <day reference="648"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="652">
+          <id>431</id>
+          <day reference="648"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="653">
+          <id>432</id>
+          <day reference="648"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="654">
+          <id>433</id>
+          <day reference="648"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="655">
+          <id>434</id>
+          <day reference="648"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="656">
+          <id>435</id>
+          <day reference="648"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="657">
+          <id>436</id>
+          <day reference="648"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="658">
+          <id>437</id>
+          <day reference="648"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="659">
+          <id>438</id>
+          <day reference="648"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="660">
+          <id>439</id>
+          <day reference="648"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="661">
+      <id>44</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>44</dayIndex>
+      <date id="662">2017-03-29 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>29/03/2017</dateString>
+      <periodList id="663">
+        <Period id="664">
+          <id>440</id>
+          <day reference="661"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="665">
+          <id>441</id>
+          <day reference="661"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="666">
+          <id>442</id>
+          <day reference="661"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="667">
+          <id>443</id>
+          <day reference="661"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="668">
+          <id>444</id>
+          <day reference="661"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="669">
+          <id>445</id>
+          <day reference="661"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="670">
+          <id>446</id>
+          <day reference="661"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="671">
+          <id>447</id>
+          <day reference="661"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="672">
+          <id>448</id>
+          <day reference="661"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="673">
+          <id>449</id>
+          <day reference="661"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="674">
+      <id>45</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>45</dayIndex>
+      <date id="675">2017-03-30 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>30/03/2017</dateString>
+      <periodList id="676">
+        <Period id="677">
+          <id>450</id>
+          <day reference="674"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="678">
+          <id>451</id>
+          <day reference="674"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="679">
+          <id>452</id>
+          <day reference="674"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="680">
+          <id>453</id>
+          <day reference="674"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="681">
+          <id>454</id>
+          <day reference="674"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="682">
+          <id>455</id>
+          <day reference="674"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="683">
+          <id>456</id>
+          <day reference="674"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="684">
+          <id>457</id>
+          <day reference="674"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="685">
+          <id>458</id>
+          <day reference="674"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="686">
+          <id>459</id>
+          <day reference="674"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="687">
+      <id>46</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>46</dayIndex>
+      <date id="688">2017-03-31 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>31/03/2017</dateString>
+      <periodList id="689">
+        <Period id="690">
+          <id>460</id>
+          <day reference="687"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="691">
+          <id>461</id>
+          <day reference="687"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="692">
+          <id>462</id>
+          <day reference="687"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="693">
+          <id>463</id>
+          <day reference="687"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="694">
+          <id>464</id>
+          <day reference="687"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="695">
+          <id>465</id>
+          <day reference="687"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="696">
+          <id>466</id>
+          <day reference="687"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="697">
+          <id>467</id>
+          <day reference="687"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="698">
+          <id>468</id>
+          <day reference="687"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="699">
+          <id>469</id>
+          <day reference="687"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="700">
+      <id>47</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>47</dayIndex>
+      <date id="701">2017-04-01 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>01/04/2017</dateString>
+      <periodList id="702">
+        <Period id="703">
+          <id>470</id>
+          <day reference="700"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="704">
+          <id>471</id>
+          <day reference="700"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="705">
+          <id>472</id>
+          <day reference="700"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="706">
+          <id>473</id>
+          <day reference="700"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="707">
+          <id>474</id>
+          <day reference="700"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="708">
+          <id>475</id>
+          <day reference="700"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="709">
+          <id>476</id>
+          <day reference="700"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="710">
+          <id>477</id>
+          <day reference="700"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="711">
+          <id>478</id>
+          <day reference="700"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="712">
+          <id>479</id>
+          <day reference="700"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="713">
+      <id>48</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>48</dayIndex>
+      <date id="714">2017-04-02 00:00:00.0 UTC</date>
+      <weekend>true</weekend>
+      <dateString>02/04/2017</dateString>
+      <periodList id="715">
+        <Period id="716">
+          <id>480</id>
+          <day reference="713"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="717">
+          <id>481</id>
+          <day reference="713"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="718">
+          <id>482</id>
+          <day reference="713"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="719">
+          <id>483</id>
+          <day reference="713"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="720">
+          <id>484</id>
+          <day reference="713"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="721">
+          <id>485</id>
+          <day reference="713"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="722">
+          <id>486</id>
+          <day reference="713"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="723">
+          <id>487</id>
+          <day reference="713"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="724">
+          <id>488</id>
+          <day reference="713"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="725">
+          <id>489</id>
+          <day reference="713"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+    <Day id="726">
+      <id>49</id>
+      <middayPauzeSlot1>4</middayPauzeSlot1>
+      <middayPauzeSlot2>5</middayPauzeSlot2>
+      <dayIndex>49</dayIndex>
+      <date id="727">2017-04-03 00:00:00.0 UTC</date>
+      <weekend>false</weekend>
+      <dateString>03/04/2017</dateString>
+      <periodList id="728">
+        <Period id="729">
+          <id>490</id>
+          <day reference="726"/>
+          <timeslot reference="83"/>
+        </Period>
+        <Period id="730">
+          <id>491</id>
+          <day reference="726"/>
+          <timeslot reference="85"/>
+        </Period>
+        <Period id="731">
+          <id>492</id>
+          <day reference="726"/>
+          <timeslot reference="87"/>
+        </Period>
+        <Period id="732">
+          <id>493</id>
+          <day reference="726"/>
+          <timeslot reference="89"/>
+        </Period>
+        <Period id="733">
+          <id>494</id>
+          <day reference="726"/>
+          <timeslot reference="91"/>
+        </Period>
+        <Period id="734">
+          <id>495</id>
+          <day reference="726"/>
+          <timeslot reference="93"/>
+        </Period>
+        <Period id="735">
+          <id>496</id>
+          <day reference="726"/>
+          <timeslot reference="95"/>
+        </Period>
+        <Period id="736">
+          <id>497</id>
+          <day reference="726"/>
+          <timeslot reference="97"/>
+        </Period>
+        <Period id="737">
+          <id>498</id>
+          <day reference="726"/>
+          <timeslot reference="99"/>
+        </Period>
+        <Period id="738">
+          <id>499</id>
+          <day reference="726"/>
+          <timeslot reference="101"/>
+        </Period>
+      </periodList>
+    </Day>
+  </dayList>
+  <timeslotList id="739">
+    <Timeslot reference="83"/>
+    <Timeslot reference="85"/>
+    <Timeslot reference="87"/>
+    <Timeslot reference="89"/>
+    <Timeslot reference="91"/>
+    <Timeslot reference="93"/>
+    <Timeslot reference="95"/>
+    <Timeslot reference="97"/>
+    <Timeslot reference="99"/>
+    <Timeslot reference="101"/>
+  </timeslotList>
+  <periodList id="740">
+    <Period reference="82"/>
+    <Period reference="84"/>
+    <Period reference="86"/>
+    <Period reference="88"/>
+    <Period reference="90"/>
+    <Period reference="92"/>
+    <Period reference="94"/>
+    <Period reference="96"/>
+    <Period reference="98"/>
+    <Period reference="100"/>
+    <Period reference="105"/>
+    <Period reference="106"/>
+    <Period reference="107"/>
+    <Period reference="108"/>
+    <Period reference="109"/>
+    <Period reference="110"/>
+    <Period reference="111"/>
+    <Period reference="112"/>
+    <Period reference="113"/>
+    <Period reference="114"/>
+    <Period reference="118"/>
+    <Period reference="119"/>
+    <Period reference="120"/>
+    <Period reference="121"/>
+    <Period reference="122"/>
+    <Period reference="123"/>
+    <Period reference="124"/>
+    <Period reference="125"/>
+    <Period reference="126"/>
+    <Period reference="127"/>
+    <Period reference="131"/>
+    <Period reference="132"/>
+    <Period reference="133"/>
+    <Period reference="134"/>
+    <Period reference="135"/>
+    <Period reference="136"/>
+    <Period reference="137"/>
+    <Period reference="138"/>
+    <Period reference="139"/>
+    <Period reference="140"/>
+    <Period reference="144"/>
+    <Period reference="145"/>
+    <Period reference="146"/>
+    <Period reference="147"/>
+    <Period reference="148"/>
+    <Period reference="149"/>
+    <Period reference="150"/>
+    <Period reference="151"/>
+    <Period reference="152"/>
+    <Period reference="153"/>
+    <Period reference="157"/>
+    <Period reference="158"/>
+    <Period reference="159"/>
+    <Period reference="160"/>
+    <Period reference="161"/>
+    <Period reference="162"/>
+    <Period reference="163"/>
+    <Period reference="164"/>
+    <Period reference="165"/>
+    <Period reference="166"/>
+    <Period reference="170"/>
+    <Period reference="171"/>
+    <Period reference="172"/>
+    <Period reference="173"/>
+    <Period reference="174"/>
+    <Period reference="175"/>
+    <Period reference="176"/>
+    <Period reference="177"/>
+    <Period reference="178"/>
+    <Period reference="179"/>
+    <Period reference="183"/>
+    <Period reference="184"/>
+    <Period reference="185"/>
+    <Period reference="186"/>
+    <Period reference="187"/>
+    <Period reference="188"/>
+    <Period reference="189"/>
+    <Period reference="190"/>
+    <Period reference="191"/>
+    <Period reference="192"/>
+    <Period reference="196"/>
+    <Period reference="197"/>
+    <Period reference="198"/>
+    <Period reference="199"/>
+    <Period reference="200"/>
+    <Period reference="201"/>
+    <Period reference="202"/>
+    <Period reference="203"/>
+    <Period reference="204"/>
+    <Period reference="205"/>
+    <Period reference="209"/>
+    <Period reference="210"/>
+    <Period reference="211"/>
+    <Period reference="212"/>
+    <Period reference="213"/>
+    <Period reference="214"/>
+    <Period reference="215"/>
+    <Period reference="216"/>
+    <Period reference="217"/>
+    <Period reference="218"/>
+    <Period reference="222"/>
+    <Period reference="223"/>
+    <Period reference="224"/>
+    <Period reference="225"/>
+    <Period reference="226"/>
+    <Period reference="227"/>
+    <Period reference="228"/>
+    <Period reference="229"/>
+    <Period reference="230"/>
+    <Period reference="231"/>
+    <Period reference="235"/>
+    <Period reference="236"/>
+    <Period reference="237"/>
+    <Period reference="238"/>
+    <Period reference="239"/>
+    <Period reference="240"/>
+    <Period reference="241"/>
+    <Period reference="242"/>
+    <Period reference="243"/>
+    <Period reference="244"/>
+    <Period reference="248"/>
+    <Period reference="249"/>
+    <Period reference="250"/>
+    <Period reference="251"/>
+    <Period reference="252"/>
+    <Period reference="253"/>
+    <Period reference="254"/>
+    <Period reference="255"/>
+    <Period reference="256"/>
+    <Period reference="257"/>
+    <Period reference="261"/>
+    <Period reference="262"/>
+    <Period reference="263"/>
+    <Period reference="264"/>
+    <Period reference="265"/>
+    <Period reference="266"/>
+    <Period reference="267"/>
+    <Period reference="268"/>
+    <Period reference="269"/>
+    <Period reference="270"/>
+    <Period reference="274"/>
+    <Period reference="275"/>
+    <Period reference="276"/>
+    <Period reference="277"/>
+    <Period reference="278"/>
+    <Period reference="279"/>
+    <Period reference="280"/>
+    <Period reference="281"/>
+    <Period reference="282"/>
+    <Period reference="283"/>
+    <Period reference="287"/>
+    <Period reference="288"/>
+    <Period reference="289"/>
+    <Period reference="290"/>
+    <Period reference="291"/>
+    <Period reference="292"/>
+    <Period reference="293"/>
+    <Period reference="294"/>
+    <Period reference="295"/>
+    <Period reference="296"/>
+    <Period reference="300"/>
+    <Period reference="301"/>
+    <Period reference="302"/>
+    <Period reference="303"/>
+    <Period reference="304"/>
+    <Period reference="305"/>
+    <Period reference="306"/>
+    <Period reference="307"/>
+    <Period reference="308"/>
+    <Period reference="309"/>
+    <Period reference="313"/>
+    <Period reference="314"/>
+    <Period reference="315"/>
+    <Period reference="316"/>
+    <Period reference="317"/>
+    <Period reference="318"/>
+    <Period reference="319"/>
+    <Period reference="320"/>
+    <Period reference="321"/>
+    <Period reference="322"/>
+    <Period reference="326"/>
+    <Period reference="327"/>
+    <Period reference="328"/>
+    <Period reference="329"/>
+    <Period reference="330"/>
+    <Period reference="331"/>
+    <Period reference="332"/>
+    <Period reference="333"/>
+    <Period reference="334"/>
+    <Period reference="335"/>
+    <Period reference="339"/>
+    <Period reference="340"/>
+    <Period reference="341"/>
+    <Period reference="342"/>
+    <Period reference="343"/>
+    <Period reference="344"/>
+    <Period reference="345"/>
+    <Period reference="346"/>
+    <Period reference="347"/>
+    <Period reference="348"/>
+    <Period reference="352"/>
+    <Period reference="353"/>
+    <Period reference="354"/>
+    <Period reference="355"/>
+    <Period reference="356"/>
+    <Period reference="357"/>
+    <Period reference="358"/>
+    <Period reference="359"/>
+    <Period reference="360"/>
+    <Period reference="361"/>
+    <Period reference="365"/>
+    <Period reference="366"/>
+    <Period reference="367"/>
+    <Period reference="368"/>
+    <Period reference="369"/>
+    <Period reference="370"/>
+    <Period reference="371"/>
+    <Period reference="372"/>
+    <Period reference="373"/>
+    <Period reference="374"/>
+    <Period reference="378"/>
+    <Period reference="379"/>
+    <Period reference="380"/>
+    <Period reference="381"/>
+    <Period reference="382"/>
+    <Period reference="383"/>
+    <Period reference="384"/>
+    <Period reference="385"/>
+    <Period reference="386"/>
+    <Period reference="387"/>
+    <Period reference="391"/>
+    <Period reference="392"/>
+    <Period reference="393"/>
+    <Period reference="394"/>
+    <Period reference="395"/>
+    <Period reference="396"/>
+    <Period reference="397"/>
+    <Period reference="398"/>
+    <Period reference="399"/>
+    <Period reference="400"/>
+    <Period reference="404"/>
+    <Period reference="405"/>
+    <Period reference="406"/>
+    <Period reference="407"/>
+    <Period reference="408"/>
+    <Period reference="409"/>
+    <Period reference="410"/>
+    <Period reference="411"/>
+    <Period reference="412"/>
+    <Period reference="413"/>
+    <Period reference="417"/>
+    <Period reference="418"/>
+    <Period reference="419"/>
+    <Period reference="420"/>
+    <Period reference="421"/>
+    <Period reference="422"/>
+    <Period reference="423"/>
+    <Period reference="424"/>
+    <Period reference="425"/>
+    <Period reference="426"/>
+    <Period reference="430"/>
+    <Period reference="431"/>
+    <Period reference="432"/>
+    <Period reference="433"/>
+    <Period reference="434"/>
+    <Period reference="435"/>
+    <Period reference="436"/>
+    <Period reference="437"/>
+    <Period reference="438"/>
+    <Period reference="439"/>
+    <Period reference="443"/>
+    <Period reference="444"/>
+    <Period reference="445"/>
+    <Period reference="446"/>
+    <Period reference="447"/>
+    <Period reference="448"/>
+    <Period reference="449"/>
+    <Period reference="450"/>
+    <Period reference="451"/>
+    <Period reference="452"/>
+    <Period reference="456"/>
+    <Period reference="457"/>
+    <Period reference="458"/>
+    <Period reference="459"/>
+    <Period reference="460"/>
+    <Period reference="461"/>
+    <Period reference="462"/>
+    <Period reference="463"/>
+    <Period reference="464"/>
+    <Period reference="465"/>
+    <Period reference="469"/>
+    <Period reference="470"/>
+    <Period reference="471"/>
+    <Period reference="472"/>
+    <Period reference="473"/>
+    <Period reference="474"/>
+    <Period reference="475"/>
+    <Period reference="476"/>
+    <Period reference="477"/>
+    <Period reference="478"/>
+    <Period reference="482"/>
+    <Period reference="483"/>
+    <Period reference="484"/>
+    <Period reference="485"/>
+    <Period reference="486"/>
+    <Period reference="487"/>
+    <Period reference="488"/>
+    <Period reference="489"/>
+    <Period reference="490"/>
+    <Period reference="491"/>
+    <Period reference="495"/>
+    <Period reference="496"/>
+    <Period reference="497"/>
+    <Period reference="498"/>
+    <Period reference="499"/>
+    <Period reference="500"/>
+    <Period reference="501"/>
+    <Period reference="502"/>
+    <Period reference="503"/>
+    <Period reference="504"/>
+    <Period reference="508"/>
+    <Period reference="509"/>
+    <Period reference="510"/>
+    <Period reference="511"/>
+    <Period reference="512"/>
+    <Period reference="513"/>
+    <Period reference="514"/>
+    <Period reference="515"/>
+    <Period reference="516"/>
+    <Period reference="517"/>
+    <Period reference="521"/>
+    <Period reference="522"/>
+    <Period reference="523"/>
+    <Period reference="524"/>
+    <Period reference="525"/>
+    <Period reference="526"/>
+    <Period reference="527"/>
+    <Period reference="528"/>
+    <Period reference="529"/>
+    <Period reference="530"/>
+    <Period reference="534"/>
+    <Period reference="535"/>
+    <Period reference="536"/>
+    <Period reference="537"/>
+    <Period reference="538"/>
+    <Period reference="539"/>
+    <Period reference="540"/>
+    <Period reference="541"/>
+    <Period reference="542"/>
+    <Period reference="543"/>
+    <Period reference="547"/>
+    <Period reference="548"/>
+    <Period reference="549"/>
+    <Period reference="550"/>
+    <Period reference="551"/>
+    <Period reference="552"/>
+    <Period reference="553"/>
+    <Period reference="554"/>
+    <Period reference="555"/>
+    <Period reference="556"/>
+    <Period reference="560"/>
+    <Period reference="561"/>
+    <Period reference="562"/>
+    <Period reference="563"/>
+    <Period reference="564"/>
+    <Period reference="565"/>
+    <Period reference="566"/>
+    <Period reference="567"/>
+    <Period reference="568"/>
+    <Period reference="569"/>
+    <Period reference="573"/>
+    <Period reference="574"/>
+    <Period reference="575"/>
+    <Period reference="576"/>
+    <Period reference="577"/>
+    <Period reference="578"/>
+    <Period reference="579"/>
+    <Period reference="580"/>
+    <Period reference="581"/>
+    <Period reference="582"/>
+    <Period reference="586"/>
+    <Period reference="587"/>
+    <Period reference="588"/>
+    <Period reference="589"/>
+    <Period reference="590"/>
+    <Period reference="591"/>
+    <Period reference="592"/>
+    <Period reference="593"/>
+    <Period reference="594"/>
+    <Period reference="595"/>
+    <Period reference="599"/>
+    <Period reference="600"/>
+    <Period reference="601"/>
+    <Period reference="602"/>
+    <Period reference="603"/>
+    <Period reference="604"/>
+    <Period reference="605"/>
+    <Period reference="606"/>
+    <Period reference="607"/>
+    <Period reference="608"/>
+    <Period reference="612"/>
+    <Period reference="613"/>
+    <Period reference="614"/>
+    <Period reference="615"/>
+    <Period reference="616"/>
+    <Period reference="617"/>
+    <Period reference="618"/>
+    <Period reference="619"/>
+    <Period reference="620"/>
+    <Period reference="621"/>
+    <Period reference="625"/>
+    <Period reference="626"/>
+    <Period reference="627"/>
+    <Period reference="628"/>
+    <Period reference="629"/>
+    <Period reference="630"/>
+    <Period reference="631"/>
+    <Period reference="632"/>
+    <Period reference="633"/>
+    <Period reference="634"/>
+    <Period reference="638"/>
+    <Period reference="639"/>
+    <Period reference="640"/>
+    <Period reference="641"/>
+    <Period reference="642"/>
+    <Period reference="643"/>
+    <Period reference="644"/>
+    <Period reference="645"/>
+    <Period reference="646"/>
+    <Period reference="647"/>
+    <Period reference="651"/>
+    <Period reference="652"/>
+    <Period reference="653"/>
+    <Period reference="654"/>
+    <Period reference="655"/>
+    <Period reference="656"/>
+    <Period reference="657"/>
+    <Period reference="658"/>
+    <Period reference="659"/>
+    <Period reference="660"/>
+    <Period reference="664"/>
+    <Period reference="665"/>
+    <Period reference="666"/>
+    <Period reference="667"/>
+    <Period reference="668"/>
+    <Period reference="669"/>
+    <Period reference="670"/>
+    <Period reference="671"/>
+    <Period reference="672"/>
+    <Period reference="673"/>
+    <Period reference="677"/>
+    <Period reference="678"/>
+    <Period reference="679"/>
+    <Period reference="680"/>
+    <Period reference="681"/>
+    <Period reference="682"/>
+    <Period reference="683"/>
+    <Period reference="684"/>
+    <Period reference="685"/>
+    <Period reference="686"/>
+    <Period reference="690"/>
+    <Period reference="691"/>
+    <Period reference="692"/>
+    <Period reference="693"/>
+    <Period reference="694"/>
+    <Period reference="695"/>
+    <Period reference="696"/>
+    <Period reference="697"/>
+    <Period reference="698"/>
+    <Period reference="699"/>
+    <Period reference="703"/>
+    <Period reference="704"/>
+    <Period reference="705"/>
+    <Period reference="706"/>
+    <Period reference="707"/>
+    <Period reference="708"/>
+    <Period reference="709"/>
+    <Period reference="710"/>
+    <Period reference="711"/>
+    <Period reference="712"/>
+    <Period reference="716"/>
+    <Period reference="717"/>
+    <Period reference="718"/>
+    <Period reference="719"/>
+    <Period reference="720"/>
+    <Period reference="721"/>
+    <Period reference="722"/>
+    <Period reference="723"/>
+    <Period reference="724"/>
+    <Period reference="725"/>
+    <Period reference="729"/>
+    <Period reference="730"/>
+    <Period reference="731"/>
+    <Period reference="732"/>
+    <Period reference="733"/>
+    <Period reference="734"/>
+    <Period reference="735"/>
+    <Period reference="736"/>
+    <Period reference="737"/>
+    <Period reference="738"/>
+  </periodList>
+  <roomList id="741">
+    <Room id="742">
+      <id>0</id>
+      <code>A001</code>
+      <capacity>70</capacity>
+      <pcCount>0</pcCount>
+    </Room>
+    <Room id="743">
+      <id>1</id>
+      <code>A002</code>
+      <capacity>70</capacity>
+      <pcCount>0</pcCount>
+    </Room>
+    <Room id="744">
+      <id>2</id>
+      <code>A003</code>
+      <capacity>70</capacity>
+      <pcCount>0</pcCount>
+    </Room>
+    <Room id="745">
+      <id>3</id>
+      <code>A11</code>
+      <capacity>20</capacity>
+      <pcCount>0</pcCount>
+    </Room>
+    <Room id="746">
+      <id>4</id>
+      <code>A202</code>
+      <capacity>20</capacity>
+      <pcCount>20</pcCount>
+    </Room>
+    <Room id="747">
+      <id>5</id>
+      <code>A204</code>
+      <capacity>20</capacity>
+      <pcCount>20</pcCount>
+    </Room>
+    <Room id="748">
+      <id>6</id>
+      <code>C201</code>
+      <capacity>30</capacity>
+      <pcCount>30</pcCount>
+    </Room>
+  </roomList>
+  <unavailableDayList id="749"/>
+  <unavailablePeriodAllCoursesList id="750"/>
+  <unavailablePeriodPenaltyList id="751"/>
+  <UnavailableCurriculumDaysList id="752"/>
+  <lectureList id="753">
+    <Lecture id="754">
+      <id>0</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="209"/>
+      <absoluteTimeslot>72</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="755">
+      <id>1</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="574"/>
+      <absoluteTimeslot>297</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="756">
+      <id>2</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="306"/>
+      <absoluteTimeslot>134</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="757">
+      <id>3</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="483"/>
+      <absoluteTimeslot>241</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="758">
+      <id>4</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="482"/>
+      <absoluteTimeslot>240</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="759">
+      <id>5</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="305"/>
+      <absoluteTimeslot>133</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="760">
+      <id>6</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="210"/>
+      <absoluteTimeslot>73</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="761">
+      <id>7</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="393"/>
+      <absoluteTimeslot>186</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="762">
+      <id>8</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="733"/>
+      <absoluteTimeslot>396</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="763">
+      <id>9</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="575"/>
+      <absoluteTimeslot>298</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="764">
+      <id>10</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="732"/>
+      <absoluteTimeslot>395</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="765">
+      <id>11</id>
+      <course reference="17"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="392"/>
+      <absoluteTimeslot>185</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="766">
+      <id>12</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="515"/>
+      <absoluteTimeslot>263</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="767">
+      <id>13</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="516"/>
+      <absoluteTimeslot>264</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="768">
+      <id>14</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="217"/>
+      <absoluteTimeslot>80</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="769">
+      <id>15</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="517"/>
+      <absoluteTimeslot>265</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="770">
+      <id>16</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="216"/>
+      <absoluteTimeslot>79</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="771">
+      <id>17</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="658"/>
+      <absoluteTimeslot>351</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="772">
+      <id>18</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="657"/>
+      <absoluteTimeslot>350</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="773">
+      <id>19</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="308"/>
+      <absoluteTimeslot>136</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="774">
+      <id>20</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="215"/>
+      <absoluteTimeslot>78</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="775">
+      <id>21</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="307"/>
+      <absoluteTimeslot>135</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="776">
+      <id>22</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="309"/>
+      <absoluteTimeslot>137</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="777">
+      <id>23</id>
+      <course reference="21"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="659"/>
+      <absoluteTimeslot>352</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="778">
+      <id>24</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="94"/>
+      <absoluteTimeslot>6</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="779">
+      <id>25</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="100"/>
+      <absoluteTimeslot>9</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="780">
+      <id>26</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="96"/>
+      <absoluteTimeslot>7</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="781">
+      <id>27</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="98"/>
+      <absoluteTimeslot>8</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="782">
+      <id>28</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="547"/>
+      <absoluteTimeslot>280</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="783">
+      <id>29</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="549"/>
+      <absoluteTimeslot>282</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="784">
+      <id>30</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="550"/>
+      <absoluteTimeslot>283</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="785">
+      <id>31</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="548"/>
+      <absoluteTimeslot>281</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="786">
+      <id>32</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="459"/>
+      <absoluteTimeslot>227</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="787">
+      <id>33</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="464"/>
+      <absoluteTimeslot>232</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="788">
+      <id>34</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="458"/>
+      <absoluteTimeslot>226</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="789">
+      <id>35</id>
+      <course reference="25"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="463"/>
+      <absoluteTimeslot>231</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="790">
+      <id>36</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="123"/>
+      <absoluteTimeslot>21</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="791">
+      <id>37</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="125"/>
+      <absoluteTimeslot>23</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="792">
+      <id>38</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="397"/>
+      <absoluteTimeslot>190</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="793">
+      <id>39</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="503"/>
+      <absoluteTimeslot>256</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="794">
+      <id>40</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="502"/>
+      <absoluteTimeslot>255</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="795">
+      <id>41</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="398"/>
+      <absoluteTimeslot>191</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="796">
+      <id>42</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="396"/>
+      <absoluteTimeslot>189</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="797">
+      <id>43</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="501"/>
+      <absoluteTimeslot>254</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="798">
+      <id>44</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="124"/>
+      <absoluteTimeslot>22</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="799">
+      <id>45</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="645"/>
+      <absoluteTimeslot>343</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="800">
+      <id>46</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="646"/>
+      <absoluteTimeslot>344</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="801">
+      <id>47</id>
+      <course reference="29"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="647"/>
+      <absoluteTimeslot>345</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="802">
+      <id>48</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="461"/>
+      <absoluteTimeslot>229</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="803">
+      <id>49</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="565"/>
+      <absoluteTimeslot>293</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="804">
+      <id>50</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="462"/>
+      <absoluteTimeslot>230</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="805">
+      <id>51</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="276"/>
+      <absoluteTimeslot>114</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="806">
+      <id>52</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="566"/>
+      <absoluteTimeslot>294</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="807">
+      <id>53</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="86"/>
+      <absoluteTimeslot>2</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="808">
+      <id>54</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="667"/>
+      <absoluteTimeslot>355</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="809">
+      <id>55</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="668"/>
+      <absoluteTimeslot>356</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="810">
+      <id>56</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="275"/>
+      <absoluteTimeslot>113</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="811">
+      <id>57</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="366"/>
+      <absoluteTimeslot>169</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="812">
+      <id>58</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="367"/>
+      <absoluteTimeslot>170</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="813">
+      <id>59</id>
+      <course reference="33"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="88"/>
+      <absoluteTimeslot>3</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="814">
+      <id>60</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="332"/>
+      <absoluteTimeslot>150</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="815">
+      <id>61</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="333"/>
+      <absoluteTimeslot>151</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="816">
+      <id>62</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="331"/>
+      <absoluteTimeslot>149</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="817">
+      <id>63</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="241"/>
+      <absoluteTimeslot>94</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="818">
+      <id>64</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="242"/>
+      <absoluteTimeslot>95</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="819">
+      <id>65</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="240"/>
+      <absoluteTimeslot>93</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="820">
+      <id>66</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="149"/>
+      <absoluteTimeslot>37</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="821">
+      <id>67</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="150"/>
+      <absoluteTimeslot>38</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="822">
+      <id>68</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="151"/>
+      <absoluteTimeslot>39</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="823">
+      <id>69</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="489"/>
+      <absoluteTimeslot>247</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="824">
+      <id>70</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="491"/>
+      <absoluteTimeslot>249</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="825">
+      <id>71</id>
+      <course reference="37"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="490"/>
+      <absoluteTimeslot>248</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="826">
+      <id>72</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="698"/>
+      <absoluteTimeslot>376</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="827">
+      <id>73</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="593"/>
+      <absoluteTimeslot>311</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="828">
+      <id>74</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="110"/>
+      <absoluteTimeslot>13</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="829">
+      <id>75</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="594"/>
+      <absoluteTimeslot>312</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="830">
+      <id>76</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="212"/>
+      <absoluteTimeslot>75</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="831">
+      <id>77</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="394"/>
+      <absoluteTimeslot>187</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="832">
+      <id>78</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="500"/>
+      <absoluteTimeslot>253</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="833">
+      <id>79</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="211"/>
+      <absoluteTimeslot>74</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="834">
+      <id>80</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="111"/>
+      <absoluteTimeslot>14</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="835">
+      <id>81</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="302"/>
+      <absoluteTimeslot>130</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="836">
+      <id>82</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="303"/>
+      <absoluteTimeslot>131</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="837">
+      <id>83</id>
+      <course reference="41"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="697"/>
+      <absoluteTimeslot>375</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="838">
+      <id>84</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="424"/>
+      <absoluteTimeslot>207</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="839">
+      <id>85</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="425"/>
+      <absoluteTimeslot>208</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="840">
+      <id>86</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="423"/>
+      <absoluteTimeslot>206</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="841">
+      <id>87</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="335"/>
+      <absoluteTimeslot>153</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="842">
+      <id>88</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="334"/>
+      <absoluteTimeslot>152</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="843">
+      <id>89</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="333"/>
+      <absoluteTimeslot>151</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="844">
+      <id>90</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="244"/>
+      <absoluteTimeslot>97</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="845">
+      <id>91</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="243"/>
+      <absoluteTimeslot>96</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="846">
+      <id>92</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="242"/>
+      <absoluteTimeslot>95</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="847">
+      <id>93</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="152"/>
+      <absoluteTimeslot>40</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="848">
+      <id>94</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="151"/>
+      <absoluteTimeslot>39</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="849">
+      <id>95</id>
+      <course reference="45"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="153"/>
+      <absoluteTimeslot>41</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="850">
+      <id>96</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="561"/>
+      <absoluteTimeslot>289</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="851">
+      <id>97</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="107"/>
+      <absoluteTimeslot>10</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="852">
+      <id>98</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="106"/>
+      <absoluteTimeslot>9</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="853">
+      <id>99</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="384"/>
+      <absoluteTimeslot>182</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="854">
+      <id>100</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="199"/>
+      <absoluteTimeslot>67</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="855">
+      <id>101</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="737"/>
+      <absoluteTimeslot>400</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="856">
+      <id>102</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="292"/>
+      <absoluteTimeslot>125</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="857">
+      <id>103</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="473"/>
+      <absoluteTimeslot>236</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="858">
+      <id>104</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="736"/>
+      <absoluteTimeslot>399</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="859">
+      <id>105</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="560"/>
+      <absoluteTimeslot>288</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="860">
+      <id>106</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="472"/>
+      <absoluteTimeslot>235</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="861">
+      <id>107</id>
+      <course reference="49"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="200"/>
+      <absoluteTimeslot>68</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="862">
+      <id>108</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="554"/>
+      <absoluteTimeslot>287</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="863">
+      <id>109</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="295"/>
+      <absoluteTimeslot>128</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="864">
+      <id>110</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="294"/>
+      <absoluteTimeslot>127</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="865">
+      <id>111</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="293"/>
+      <absoluteTimeslot>126</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="866">
+      <id>112</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="204"/>
+      <absoluteTimeslot>72</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="867">
+      <id>113</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="203"/>
+      <absoluteTimeslot>71</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="868">
+      <id>114</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="205"/>
+      <absoluteTimeslot>73</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="869">
+      <id>115</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="112"/>
+      <absoluteTimeslot>15</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="870">
+      <id>116</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="113"/>
+      <absoluteTimeslot>16</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="871">
+      <id>117</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="114"/>
+      <absoluteTimeslot>17</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="872">
+      <id>118</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="552"/>
+      <absoluteTimeslot>285</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="873">
+      <id>119</id>
+      <course reference="53"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="553"/>
+      <absoluteTimeslot>286</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="874">
+      <id>120</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="224"/>
+      <absoluteTimeslot>82</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="875">
+      <id>121</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="225"/>
+      <absoluteTimeslot>83</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="876">
+      <id>122</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="729"/>
+      <absoluteTimeslot>392</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="877">
+      <id>123</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="138"/>
+      <absoluteTimeslot>31</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="878">
+      <id>124</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="640"/>
+      <absoluteTimeslot>338</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="879">
+      <id>125</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="385"/>
+      <absoluteTimeslot>183</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="880">
+      <id>126</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="469"/>
+      <absoluteTimeslot>232</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="881">
+      <id>127</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="641"/>
+      <absoluteTimeslot>339</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="882">
+      <id>128</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="470"/>
+      <absoluteTimeslot>233</absoluteTimeslot>
+      <room reference="743"/>
+    </Lecture>
+    <Lecture id="883">
+      <id>129</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="386"/>
+      <absoluteTimeslot>184</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="884">
+      <id>130</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="730"/>
+      <absoluteTimeslot>393</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="885">
+      <id>131</id>
+      <course reference="57"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="137"/>
+      <absoluteTimeslot>30</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="886">
+      <id>132</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="489"/>
+      <absoluteTimeslot>247</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="887">
+      <id>133</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="488"/>
+      <absoluteTimeslot>246</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="888">
+      <id>134</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="487"/>
+      <absoluteTimeslot>245</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="889">
+      <id>135</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="230"/>
+      <absoluteTimeslot>88</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="890">
+      <id>136</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="229"/>
+      <absoluteTimeslot>87</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="891">
+      <id>137</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="228"/>
+      <absoluteTimeslot>86</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="892">
+      <id>138</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="140"/>
+      <absoluteTimeslot>33</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="893">
+      <id>139</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="136"/>
+      <absoluteTimeslot>29</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="894">
+      <id>140</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="139"/>
+      <absoluteTimeslot>32</absoluteTimeslot>
+      <room reference="747"/>
+    </Lecture>
+    <Lecture id="895">
+      <id>141</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="398"/>
+      <absoluteTimeslot>191</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="896">
+      <id>142</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="400"/>
+      <absoluteTimeslot>193</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="897">
+      <id>143</id>
+      <course reference="61"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="399"/>
+      <absoluteTimeslot>192</absoluteTimeslot>
+      <room reference="745"/>
+    </Lecture>
+    <Lecture id="898">
+      <id>144</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="373"/>
+      <absoluteTimeslot>176</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="899">
+      <id>145</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="371"/>
+      <absoluteTimeslot>174</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="900">
+      <id>146</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="372"/>
+      <absoluteTimeslot>175</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="901">
+      <id>147</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="274"/>
+      <absoluteTimeslot>112</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="902">
+      <id>148</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="281"/>
+      <absoluteTimeslot>119</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="903">
+      <id>149</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="280"/>
+      <absoluteTimeslot>118</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="904">
+      <id>150</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="184"/>
+      <absoluteTimeslot>57</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="905">
+      <id>151</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="185"/>
+      <absoluteTimeslot>58</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="906">
+      <id>152</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="183"/>
+      <absoluteTimeslot>56</absoluteTimeslot>
+      <room reference="744"/>
+    </Lecture>
+    <Lecture id="907">
+      <id>153</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="84"/>
+      <absoluteTimeslot>1</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="908">
+      <id>154</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="92"/>
+      <absoluteTimeslot>5</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="909">
+      <id>155</id>
+      <course reference="65"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="82"/>
+      <absoluteTimeslot>0</absoluteTimeslot>
+      <room reference="742"/>
+    </Lecture>
+    <Lecture id="910">
+      <id>156</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>0</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="655"/>
+      <absoluteTimeslot>348</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="911">
+      <id>157</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>1</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="653"/>
+      <absoluteTimeslot>346</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="912">
+      <id>158</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>2</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="654"/>
+      <absoluteTimeslot>347</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="913">
+      <id>159</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>3</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="567"/>
+      <absoluteTimeslot>295</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="914">
+      <id>160</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>4</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="563"/>
+      <absoluteTimeslot>291</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="915">
+      <id>161</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>5</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="562"/>
+      <absoluteTimeslot>290</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="916">
+      <id>162</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>6</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="476"/>
+      <absoluteTimeslot>239</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="917">
+      <id>163</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>7</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="478"/>
+      <absoluteTimeslot>241</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="918">
+      <id>164</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>8</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="477"/>
+      <absoluteTimeslot>240</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="919">
+      <id>165</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>9</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="380"/>
+      <absoluteTimeslot>178</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="920">
+      <id>166</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>10</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="381"/>
+      <absoluteTimeslot>179</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+    <Lecture id="921">
+      <id>167</id>
+      <course reference="69"/>
+      <lectureIndexInCourse>11</lectureIndexInCourse>
+      <locked>false</locked>
+      <period reference="382"/>
+      <absoluteTimeslot>180</absoluteTimeslot>
+      <room reference="748"/>
+    </Lecture>
+  </lectureList>
+  <score id="922">-6hard/-64soft</score>
+</CourseSchedule>
