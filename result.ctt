@@ -1,10 +1,10 @@
 Name: EHB
 Language: NL
 StartDate: 04/06/2017
-Courses: 5
-TeacherGroupCount: 1
-Rooms: 7
-Days: 11
+Courses: 14
+TeacherGroupCount: 0
+Rooms: 3
+Days: 25
 Periods_per_day: 9
 Curricula: 2
 unavailable_courses: 2
@@ -15,53 +15,48 @@ DependentCourses: 1
 
 COURSES:
 code            teacher                        count   minDays   students  minimumDate deadline    maxDays     needPc(optional)  HoursPerDay(optional but with pc)
-ABAP_Objects    S.Weemaels                    	12 		1		6			04/06/2017	/         	/			True			4
-Java_EE_NW_WK   K.V.Ryckegem                  	12 		3		3			/         	08/06/2017	/			False			3
-Java_EE_BIZ     K.V.Ryckegem                  	6 		3		3			/         	08/06/2017	6			False			2
-Networking      B.Drabbé                      	12 		3		6			/         	/         	/			False			2
-GW_ABAP_JAVA    S.Weemaels_K.V.Ryckegem       	8 		2		6			/         	/         	/			False			4
+OS_HO           G.Coulommier                  	12 		1		6			04/06/2017	/         	/			True			4
+OS_WK           G.Coulommier                  	12 		3		3			/         	/         	/			False			3
+C++_HO          J.Wante                       	6 		3		3			/         	/         	6			False			2
+C++_WK          R.Dejonck_K.Bruyl             	12 		3		6			/         	/         	/			False			3
+SoftDesignFund_HOJ.VanDenBroek                 	8 		2		6			/         	/         	/			False			4
+SoftDesignFund_WKK.Bruylandt_J.VanDenBroek     	12 		1		6			04/06/2017	/         	/			True			4
+DatabaseFund_HO K.Vanneuville                 	12 		3		3			/         	/         	/			False			2
+DatabaseFund_WK K.Vanneuville                 	6 		3		3			/         	/         	6			False			3
+ProjMan_HO      J.Alen                        	12 		3		6			/         	/         	/			False			2
+ProjMan_WK      J.Alen                        	8 		2		6			/         	/         	/			False			4
+Engels_HO       NN                            	12 		1		6			04/06/2017	/         	/			True			4
+Engels_WK       NN                            	12 		3		3			/         	/         	/			False			3
+SoftProj_PR     S.Weemaels_K.Bruyl_R.Dejonck  	6 		3		3			/         	/         	6			False			2
+WebProj_PR      K.Vanneuville                 	12 		3		6			/         	/         	/			False			2
 
 TEACHER_GROUPS:
 groupName                   teachers(n)
-S.Weemaels_K.V.Ryckegem		S.Weemaels K.V.Ryckegem 
 
 ROOMS:
 RoomID  Capacity    PCcount
-A001    70            0
-A002    70            0
-A003    70            0
-A11     20           20
-A202    20           20
-A204    20           20
-C201    30           30
+A    6            6
+B    6            5
+C    15           15
 
 CURRICULA:
 CurriculumID   #Courses     AllMemberCourses(n)
-DigX3_Bizit           4		ABAP_Objects Java_EE_BIZ Networking GW_ABAP_JAVA 
-DigX3_Network         3		Java_EE_NW_WK Networking GW_ABAP_JAVA 
+DigX3_Bizit           14		OS_HO OS_WK C++_WK C++_HO SoftDesignFund_HO SoftDesignFund_WK DatabaseFund_HO DatabaseFund_WK ProjMan_HO ProjMan_WK Engels_HO Engels_WK SoftProj_PR WebProj_PR 
+DigX3_Network         14		OS_HO OS_WK C++_HO C++_WK SoftDesignFund_HO SoftDesignFund_WK DatabaseFund_HO DatabaseFund_WK ProjMan_HO ProjMan_WK Engels_HO Engels_WK SoftProj_PR WebProj_PR 
 
 UNAVAILABILITY_COURSE:
 CourseID        Day(date)    Period
-Java_EE_NW_WK	04/06/2017	0
-Java_EE_NW_WK	04/06/2017	1
 
 UNAVAILABILITY_CURRICULUM:
 CurriculumID        Day(date)   timeslot(optional)
-DigX3_Bizit         04/06/2017	0
-DigX3_Bizit         04/06/2017	1
-DigX3_Bizit         04/06/2017	2
 
 UNAVAILABLE_HOURS_ALL:
 Day(date)    Period
-04/06/2017	0
-04/06/2017	1
 
 UNAVAILABLE_DAYS_ALL:
 Day(date)
-04/06/2017
 
 DEPENDENCIES:
 dependentCourse     courseDependencies(n)
-ABAP_Objects	Java_EE_BIZ
 
 END.

@@ -1,29 +1,27 @@
 Name: EHB
 Language: NL
 StartDate: 04/06/2017
-Courses: 5
+Courses: 3
 TeacherGroupCount: 1
 Rooms: 3
-Days: 11
-Periods_per_day: 9
+Days: 50
+Periods_per_day: 10
 Curricula: 2
 unavailable_courses: 2
 unavailable_curricula: 3
 unavailable_hours_all: 2
 unavailable_days_all: 1
-DependentCourses: 1
+DependentCourses: 0
 
 COURSES:
 code            teacher                 count   minDays   students  minimumDate deadline    maxDays     needPc(optional)  HoursPerDay(optional but with pc)
-ABAP_Objects    S.Weemaels              12      1         6         04/06/2017  /           /           true              4
-Java_EE_NW_WK   K.V.Ryckegem            12      3         3         /           08/06/2017  /           false
-Java_EE_BIZ     K.V.Ryckegem            6       3         3         /           08/06/2017  6           false
-Networking      B.Drabbé                12      3         6         /           /           /           false
-GW_ABAP_JAVA    S.Weemaels_K.V.Ryckegem 8       2         6         /           /           /           false              4
+Java_EE_NW_WK   K.V.Ryckegem            12      3         3         /           /           /           false             3
+ABAP_Objects_HO S.Weemaels              12      1         6         /           /           /           true              4
+groepswerk      S.Weem_K.V.Ryck         12      1         6         /           /           /           true              4
 
 TEACHER_GROUPS:
 groupName                   teachers(n)
-S.Weemaels_K.V.Ryckegem     S.Weemaels  K.V.Ryckegem
+S.Weem_K.V.Ryck            S.Weemaels K.V.Ryckegem
 
 ROOMS:
 RoomID  Capacity    PCcount
@@ -33,8 +31,8 @@ C	    15          15
 
 CURRICULA:
 CurriculumID   #Courses     AllMemberCourses(n)
-DigX3_Bizit    4            ABAP_Objects Java_EE_BIZ Networking GW_ABAP_JAVA
-DigX3_Network  3            Java_EE_NW_WK Networking GW_ABAP_JAVA
+DigX3_Bizit    1            Java_EE_NW_WK
+DigX3_Network  1            Java_EE_NW_WK
 
 UNAVAILABILITY_COURSE:
 CourseID        Day(date)    Period
@@ -58,6 +56,5 @@ Day(date)
 
 DEPENDENCIES:
 dependentCourse     courseDependencies(n)
-ABAP_Objects        Java_EE_BIZ
 
 END.

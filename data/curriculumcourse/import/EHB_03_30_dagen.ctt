@@ -1,0 +1,84 @@
+Name: EHB
+Language: NL
+StartDate: 13/02/2017
+Courses: 17
+TeacherGroupCount: 0
+Rooms: 7
+Days: 30
+Periods_per_day: 9
+Curricula: 3
+unavailable_courses: 0
+unavailable_curricula: 0
+unavailable_hours_all: 0
+unavailable_days_all: 14
+DependentCourses: 0
+
+COURSES:
+code                  teacher                        count   minDays   students  minimumDate deadline    maxDays     needPc(optional)  HoursPerDay(optional but with pc)
+OS_HO                 G.Coulommier                  	6 		3		54			20/02/2017	/         	/			False			2
+OS_WK                 G.Coulommier                  	3 		1		25			13/02/2017	/         	/			True			3
+C++_HO                J.Wante                       	12 		3		54			13/02/2017	/         	/			False			4
+C++_WK                R.Dejonck_K.Bruyl             	9 		3		25			13/02/2017	/         	/			True			3
+SoftDesignFund_HO     J.VanDenBroek                 	4 		2		54			13/02/2017	/         	/			False			2
+SoftDesignFund_WK     K.Bruylandt_J.VanDenBroek     	6 		2		30			20/02/2017	/         	/			True			3
+DatabaseFund_HO       K.Vanneuville                 	8 		4		25			13/02/2017	/         	/			False			2
+DatabaseFund_WK       K.Vanneuville                 	6 		3		25			20/02/2017	/         	/			True			3
+ProjMan_HO            J.Alen                        	4 		2		25			13/02/2017	/         	/			False			2
+ProjMan_WK            J.Alen                        	6 		2		25			20/02/2017	/         	/			True			3
+Engels_HO             NN                            	6 		3		12			13/02/2017	/         	/			False			2
+Engels_WK             NN                            	6 		2		12			20/02/2017	/         	/			False			3
+SoftProj_PR           S.Weemaels_K.Bruyl_R.Dejonck  	3 		3		54			20/02/2017	/         	/			False			3
+WebProj_PR            K.Vanneuville                 	9 		3		25			20/02/2017	/         	/			True			3
+Abap                  S.Weemaels                    	0 		14		25			20/02/2017	/         	/			True			2
+XML                   K.Bruylandt                   	0 		14		25			20/02/2017	/         	/			True			2
+Java                  R.Dejonckheere                	0 		14		25			20/02/2017	/         	/			True			2
+
+TEACHER_GROUPS:
+groupName                   teachers(n)
+
+ROOMS:
+RoomID  Capacity    PCcount
+A001    70            0
+A002    70            0
+A003    70            0
+A11     20            0
+A202    20           20
+A204    20           20
+C201    30           30
+
+CURRICULA:
+CurriculumID   #Courses     AllMemberCourses(n)
+DigX3_Bizit            12		OS_HO C++_HO DatabaseFund_HO ProjMan_HO Engels_HO SoftDesignFund_HO OS_WK C++_WK ProjMan_WK SoftProj_PR Engels_WK WebProj_PR 
+DigX3_Network          13		OS_HO C++_HO SoftDesignFund_HO DatabaseFund_HO ProjMan_HO Engels_HO OS_WK C++_WK DatabaseFund_WK ProjMan_WK Engels_WK SoftProj_PR WebProj_PR 
+DigX3_Software         13		OS_HO C++_HO SoftDesignFund_HO DatabaseFund_HO ProjMan_HO Engels_HO OS_WK C++_WK SoftDesignFund_WK ProjMan_WK Engels_WK SoftProj_PR Abap 
+
+UNAVAILABILITY_COURSE:
+CourseID        Day(date)    Period
+
+UNAVAILABILITY_CURRICULUM:
+CurriculumID        Day(date)   timeslot(optional)
+
+UNAVAILABLE_HOURS_ALL:
+Day(date)    Period
+
+UNAVAILABLE_DAYS_ALL:
+Day(date)
+03/04/2017
+04/04/2017
+05/04/2017
+06/04/2017
+07/04/2017
+08/04/2017
+09/04/2017
+10/04/2017
+11/04/2017
+12/04/2017
+13/04/2017
+14/04/2017
+15/04/2017
+16/04/2017
+
+DEPENDENCIES:
+dependentCourse     courseDependencies(n)
+
+END.
